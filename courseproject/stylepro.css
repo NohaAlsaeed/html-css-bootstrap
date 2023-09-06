@@ -1,0 +1,59 @@
+body{
+    background-image: url('bg.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+h1{
+    color: aliceblue;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    position: absolute;
+    bottom: 10%;
+    right: 40%;
+    top: 70%;
+
+
+}
+nav{
+    background-color: rgba(38, 58, 148, 0.678);
+    overflow: hidden;
+    position: static;
+    margin: 0px;
+    padding: 0px;
+    
+    
+}
+a{
+    float: right;
+}
+nav a{
+    text-decoration: none;
+    color: aliceblue;
+   
+    text-align: center;
+    padding: 14px 16px;
+    font-size: 17px;
+    display: inline-block;
+    
+    
+    
+}
+a:hover{
+    background-color: rgb(20, 20, 109);
+}
+.im{
+    position: absolute;
+    top:30%;
+    right: 43%;
+}
+button{
+    border-radius: 15px;
+    position: absolute;
+    bottom: 5%;
+    right: 50%;
+    background-color: rgb(64, 64, 117);
+    font-size: 20px;
+    color: aliceblue;
+    width: 80px;
+    height: 40px;
+}
